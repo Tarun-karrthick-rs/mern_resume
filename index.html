@@ -3,21 +3,34 @@
 <head>
     
     <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #heading{
+            
+            font-weight: bold;
+        }
+        .cl{
+            font-weight: bold;
+        }
+        td{
+            font-style: italic;
+        }
+    </style>
 </head>
-<body>
+<body style="align-items: center; justify-content: center; display: flex; flex-direction: column;">
     <h1>TARUN KARRTHICK R S</h1>
-    <h2>Student at Sri krishna college of Engineering and technology</h2>
+    <h2 style="color: chocolate;">Student at Sri krishna college of Engineering and technology</h2>
     <a href="Tarun karrthick Resume.pdf" ><button>Resume</button></a>
     <br>
     <br>
     <br>
     <form>
-        <table border="1px">
+        <table border="1px" style="text-align: center;">
             <tr>
-                <th>Grade</th>
-                <th>Education</th>
-                <th>Percentage</th>
-                <th>Pass out Year</th>
+                <th id="heading">Grade</th>
+                <th class="cl">Education</th>
+                <th id="heading">Percentage</th>
+                <th class="cl">Pass out Year</th>
             </tr>
             <tr>
                 <td>10</td>
@@ -29,21 +42,33 @@
                 <td>12</td>
                 <td>Keartiman Matriculatuon Higher Secondary School</td>
                 <td>93.16%</td>
-                <td>2020</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>BE Electronics and Communication Engineering</td>
+                <td>Sri Krishna College of Engineering and Technology</td>
+                <td>8.37 CGPA</td>
+                <td>Present</td>
             </tr>
         </table>
 
         <p><b>Programming Languages Known</b></p>
+       
         <ul>
             <li>C++</li>
             <li>Java</li>
             <li>Mern</li>
         </ul>
+       
+        
+
         <p><b>Skills</b></p>
+       
         <ul>
             <li>Embedded System</li>
             <li>Circuit Designer</li>
         </ul>
+  
     </form>
 </body>
 </html>
